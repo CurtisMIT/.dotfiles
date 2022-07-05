@@ -22,3 +22,5 @@ PROMPT+=' %{$fg[cyan]%}%c%{$reset_color%}'
 PROMPT+=' %(?:%{$fg_bold[yellow]%}> :%{$fg_bold[red]%}> )%{$reset_color%}'
 
 alias ls='ls --color=auto'
+alias dtf='cd ~/.dotfiles'
+alias pg='cd ~/playground'

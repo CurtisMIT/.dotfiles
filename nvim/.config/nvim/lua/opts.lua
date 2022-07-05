@@ -16,7 +16,4 @@ vim.o.hidden = true
 
 vim.o.completeopt = "menuone,noselect"
 
-vim.g.material_style = "palenight"
-
-vim.cmd 'colorscheme material'
-
+vim.cmd 'colorscheme gruvbox'

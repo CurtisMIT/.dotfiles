@@ -30,7 +30,7 @@ require('packer').startup(function(use)
     'nvim-lualine/lualine.nvim',
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
-  use 'marko-cerovac/material.nvim'
+  use 'gruvbox-community/gruvbox'
   if packer_bootstrap then
     require('packer').sync()
   end

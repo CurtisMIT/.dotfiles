@@ -26,6 +26,11 @@ require('packer').startup(function(use)
   use 'hrsh7th/nvim-cmp'
   use 'saadparwaiz1/cmp_luasnip'
   use 'L3MON4D3/LuaSnip'
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  }
+  use 'marko-cerovac/material.nvim'
   if packer_bootstrap then
     require('packer').sync()
   end

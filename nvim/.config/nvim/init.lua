@@ -1,0 +1,7 @@
+require('opts')
+require('keymaps')
+require('plugins')
+require('ts')
+require('tel')
+require('comp')
+require('lsp')

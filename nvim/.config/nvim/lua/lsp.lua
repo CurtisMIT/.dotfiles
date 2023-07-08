@@ -6,7 +6,7 @@ local function mappings(_, bufnr)
   vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, bufopts)
   vim.keymap.set('n', 'gr', vim.lsp.buf.references, bufopts)
   vim.keymap.set('n', 'gs', vim.lsp.buf.signature_help, bufopts)
-  vim.keymap.set('n', 'gf', vim.lsp.buf.formatting, bufopts)
+  vim.keymap.set('n', 'gf', vim.lsp.buf.format, bufopts)
 end
 
 local capabilities = vim.lsp.protocol.make_client_capabilities()
